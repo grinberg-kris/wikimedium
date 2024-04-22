@@ -1,0 +1,41 @@
+.sidebar {
+    display: block;
+    width: 300px;
+    position: fixed;
+    top: 40px;
+    left: 20px; 
+    font-size: 20px;
+    overflow: hidden;
+    opacity: 0.3;
+    transition: all .8s ease-out;
+}
+.sidebar h2 {
+    font-weight: bold;
+    font-size: 17px;
+}
+.sidebar a {
+    color: inherit;
+    text-decoration: none;
+}
+.sidebar ol {
+    list-style-type: none;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.sidebar li {
+    margin: 10px 0;
+    line-height: 20px;
+    font-size: 13px;
+    color: inherit;
+}
+.sidebar ol > ol {
+    margin-left: 10px;
+    color: #777;
+}
+.sidebar ol > ol > ol {
+    margin-left: 20px;
+    color: #ff0000;
+}
+.sidebar:hover {
+    opacity: 1;
+    transition: all .1s ease-out;
+}
