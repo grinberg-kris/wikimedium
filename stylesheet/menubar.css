@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-around;
     height: 40px;
+    width: 100%;
     align-items: center;
 }
 .menubar img {
-    height: 20px;
+    height: 40%;
 }
 .menubar li {
     display: inline;
